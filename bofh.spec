@@ -7,6 +7,7 @@ License:	GPL
 Group:		Applications/Console
 Source0:	ftp://morgoth.uznam.net.pl/bofh/%{name}-%{version}.tar.gz
 # Source0-md5:	aa3af230280e36c0dcaf20e87014cd52
+Patch0:		%{name}-pl.po_fix.patch
 Requires:	dml
 Requires:	grep
 Requires:	shadow
@@ -29,6 +30,7 @@ poprawianie. Posiada ³adny, oparty na DMLu interfejs.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
