@@ -11,8 +11,8 @@ Requires:	grep
 Requires:	shadow
 Requires:	textutils
 Requires:	bash
-Requires:	gettext-devel
-BuildRequires:	gettext
+Requires:	gettext
+BuildRequires:	gettext-devel
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
