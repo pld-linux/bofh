@@ -36,14 +36,12 @@ rm -rf $RPM_BUILD_ROOT
 	sbindir=%{_sbindir} \
 	localedir=%{_datadir}/locale
 
-gzip -9nf README ChangeLog TODO CREDITS
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README ChangeLog TODO CREDITS
 %defattr(644,root,root,755)
 %{_sysconfdir}/bofh
 %attr(755,root,root) %{_sbindir}/bofh
