@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		Applications/Console
 Source0:	ftp://morgoth.uznam.net.pl/bofh/%{name}-%{version}.tar.gz
+# Source0-md5:	aa3af230280e36c0dcaf20e87014cd52
 Requires:	dml
 Requires:	grep
 Requires:	shadow
