@@ -50,5 +50,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{_sysconfdir}/bofh
 %attr(755,root,root) %{_sbindir}/bofh
-%{_libdir}/bofh
+%{_datadir}/bofh
 %lang(pl) %{_datadir}/locale/pl/LC_MESSAGES/bofh.mo
