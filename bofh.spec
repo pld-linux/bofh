@@ -10,6 +10,7 @@ Requires:	dml
 Requires:	grep
 Requires:	shadow
 Requires:	textutils
+BuildRequires:	gettext
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
