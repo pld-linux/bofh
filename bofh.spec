@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 It is a utility that lets you maintain user accounts easily. Currently
-it supports adding, removing and modyfing accounts. It has nice,
+it supports adding, removing and modifying accounts. It has nice,
 DML-based interface.
 
 %description -l pl
