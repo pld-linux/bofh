@@ -1,8 +1,8 @@
 Summary:	Console utility for maintaing user accounts
 Summary(pl):	Konsolowe narzêdzie do zarz±dzania kontami u¿ytkowników
 Name:		bofh
-Version:	0.1
-Release:	2
+Version:	0.1a
+Release:	1
 License:	GPL
 Group:		Applications/Console
 Source0:	ftp://morgoth.uznam.net.pl/bofh/%{name}-%{version}.tar.gz
