@@ -2,7 +2,7 @@ Summary:	Console utility for maintaing user accounts
 Summary(pl):	Konsolowe narzêdzie do zarz±dzania kontami u¿ytkowników
 Name:		bofh
 Version:	0.2
-Release:	3
+Release:	4
 License:	GPL
 Group:		Applications/Console
 Source0:	ftp://morgoth.uznam.net.pl/bofh/%{name}-%{version}.tar.gz
@@ -35,8 +35,9 @@ poprawianie. Posiada ³adny, oparty na DMLu interfejs.
 %install
 rm -rf $RPM_BUILD_ROOT
 
+# %{_datadir} is intentional here. Everything inside _is_ arch independent
 ./install.sh DESTDIR=$RPM_BUILD_ROOT \
-	libdir=%{_libdir}/bofh \
+	libdir=%{_datadir}/bofh \
 	sbindir=%{_sbindir} \
 	localedir=%{_datadir}/locale
 
