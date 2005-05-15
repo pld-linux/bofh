@@ -47,8 +47,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README ChangeLog TODO CREDITS
-%defattr(644,root,root,755)
-%{_sysconfdir}/bofh
+%dir %{_sysconfdir}/bofh
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/bofh/config
 %attr(755,root,root) %{_sbindir}/bofh
 %{_datadir}/bofh
 %lang(pl) %{_datadir}/locale/pl/LC_MESSAGES/bofh.mo
