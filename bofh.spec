@@ -41,14 +41,15 @@ rm -rf $RPM_BUILD_ROOT
 	sbindir=%{_sbindir} \
 	localedir=%{_datadir}/locale
 
+%find_lang %{name}
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files
+%files -f %{name}.lang
 %defattr(644,root,root,755)
 %doc README ChangeLog TODO CREDITS
 %dir %{_sysconfdir}/bofh
 %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/bofh/config
 %attr(755,root,root) %{_sbindir}/bofh
 %{_datadir}/bofh
-%lang(pl) %{_datadir}/locale/pl/LC_MESSAGES/bofh.mo
