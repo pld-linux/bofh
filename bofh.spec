@@ -8,13 +8,13 @@ Group:		Applications/Console
 Source0:	ftp://morgoth.uznam.net.pl/bofh/%{name}-%{version}.tar.gz
 # Source0-md5:	aa3af230280e36c0dcaf20e87014cd52
 Patch0:		%{name}-pl.po_fix.patch
+BuildRequires:	gettext-devel
+Requires:	bash
 Requires:	dml
+Requires:	gettext
 Requires:	grep
 Requires:	shadow
 Requires:	textutils
-Requires:	bash
-Requires:	gettext
-BuildRequires:	gettext-devel
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
