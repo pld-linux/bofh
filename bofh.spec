@@ -1,5 +1,5 @@
 Summary:	Console utility for maintaing user accounts
-Summary(pl):	Konsolowe narzêdzie do zarz±dzania kontami u¿ytkowników
+Summary(pl.UTF-8):   Konsolowe narzÄ™dzie do zarzÄ…dzania kontami uÅ¼ytkownikÃ³w
 Name:		bofh
 Version:	0.2
 Release:	4
@@ -23,10 +23,10 @@ It is a utility that lets you maintain user accounts easily. Currently
 it supports adding, removing and modifying accounts. It has nice,
 DML-based interface.
 
-%description -l pl
-Jest to narzêdzie, które pozwala na ³atwe zarz±dzanie kontami
-u¿ytkowników. Aktualnie pozwala na ich usuwanie, dodawanie oraz
-poprawianie. Posiada ³adny, oparty na DMLu interfejs.
+%description -l pl.UTF-8
+Jest to narzÄ™dzie, ktÃ³re pozwala na Å‚atwe zarzÄ…dzanie kontami
+uÅ¼ytkownikÃ³w. Aktualnie pozwala na ich usuwanie, dodawanie oraz
+poprawianie. Posiada Å‚adny, oparty na DMLu interfejs.
 
 %prep
 %setup -q
