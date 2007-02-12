@@ -1,5 +1,5 @@
 Summary:	Console utility for maintaing user accounts
-Summary(pl.UTF-8):   Konsolowe narzędzie do zarządzania kontami użytkowników
+Summary(pl.UTF-8):	Konsolowe narzędzie do zarządzania kontami użytkowników
 Name:		bofh
 Version:	0.2
 Release:	4
